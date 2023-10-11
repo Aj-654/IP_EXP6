@@ -2,7 +2,7 @@ import React from 'react';
 
 const Activities = () => {
   return (
-    <Activities>
+    <div>
       <h3>Activities:</h3>
         <p>being in VESIT, I have participated in a lot of events and have done a lot of extracurricular as well as co-curricular activities.</p>
         <p>I am actively a part of the following organizations:</p>
@@ -20,7 +20,7 @@ const Activities = () => {
             video.
         </video>
         <p>You can watch the full video on Youtube: <a href="https://youtu.be/zlya9hgHs3w">https://youtu.be/zlya9hgHs3w</a></p>
-    </Activities>
+    </div>
   );
 };
 

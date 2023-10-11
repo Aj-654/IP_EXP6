@@ -2,7 +2,6 @@ import React from 'react';
 
 const Skills = () => {
   return (
-    <Skills>
     <div>
       <h3>Skills:</h3>
       <p>Being a budding engineer, I have the following skills:</p>
@@ -36,7 +35,6 @@ const Skills = () => {
         </tr>
       </table>
     </div>
-    </Skills>
   );
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <Education>
+    <div>
        <h3>Education:</h3>
        <p>I am currently pursuing a Bachelors Degree in IT Engineering from <i><a href="https://vesit.ves.ac.in/">Vivekanand Education Society's Institute of technology,Chembur</a></i>(<abbr>VESIT</abbr>).</p>
         <li>These are my qualifications so far:</li>
@@ -38,7 +38,7 @@ const Education = () => {
                 </tbody>
             </table>
         </details>
-    </Education>
+    </div>
   );
 };
 

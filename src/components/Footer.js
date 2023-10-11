@@ -9,8 +9,7 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here, you can perform actions to record the user's name or send it to a backend.
-    // For simplicity, we'll just display a "Thank You" message with the name.
+    
     setSubmitted(true);
   };
 
