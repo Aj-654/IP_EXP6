@@ -1,0 +1,84 @@
+body > * {
+  font-family: 'Jost', sans-serif;
+  font-size: 20px
+}
+
+body{
+  background-image: url(./images/Outer\ Space.jpeg);
+  color: white;
+  
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.main{
+  flex: 1;
+}
+
+.photo{
+  float: left;
+  text-align: center;
+}
+
+h1,h2,h3{
+  font-family: 'Handjet', cursive;
+  font-size: 56px;
+  margin: 20px;
+}
+
+#introduction > p{
+  font-family: 'Jost', sans-serif;
+  font-size: 2em;
+  margin: 10px;
+}
+
+#name{
+  color: #bf71e3;
+}
+
+#education{
+  display: block
+}
+
+/* media query, i have used to change the background of the page with a transition*/
+@media (max-width: 650px){
+  h1,h2,h3 {
+    font-size: 40px;
+  }
+
+  #introduction > p{
+      font-size: 20px;
+      margin: 10px;
+  }
+  
+  body{
+    background-image: url(./images/beach\ mobile.png);
+    transition: background-image 0.5s ;
+    display: inline-flex;
+  }
+}
+
+
+figure{
+  width: 100%;
+  display: inline;
+  object-fit: cover;
+}
+/* changes made after recommendation, the colour of the link changes based on the current state*/
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+
+a:hover {
+  color: #FF00FF;
+}
+
+h3::first-letter {
+  color: #FF00FF;
+  font-size: 80px;
+}
